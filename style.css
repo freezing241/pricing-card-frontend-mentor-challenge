@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+}
+
+body {
+  padding: 100px;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#card {
+ width: 600px;
+ height: 450px;
+ box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35); /*magamit lahin CSS generator para hin */
+ border-radius: 5px; /*tsadi para mag curve it border*/
+ overflow: hidden; /*tsadi para mag curve it border ha ilarom kay child container na hiya so bagat separate border hiya within the main border so should use this para ma curve it border ha baba*/
+}
+
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 35px;
+}
+
+#botton-section {
+  display: flex; /* it tsadi para ma align an duduha nga box*/
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+#botton-left-section {
+  width: 50%;
+  height: 100%;
+  background-color: #2ab2af;
+  padding: 30px;
+}
+#botton-right-section {
+  width: 50%;
+  height: 100%;
+  background-color: #2EBFBD;
+  padding: 30px;
+}
+
+#title {
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+
+#subtitle {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+
+#top-section p {
+  color: #98a6bd;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 30px;
+  width: 245px;
+  height: 50px;
+  background-color: #c0df34;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale(1.05); /*it tsadi para dumako it sign up button*/
+}
+
+#pandesal {
+  display: flex;
+}
+
+#dollar {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#per-month {
+  margin-top: 27px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  color: #b8bfcc;
+}
+
+#botton-right-section ul{
+  margin-top: 27px;
+  padding: 0px; /*spacing para ma align hit Why us*/
+  list-style: none; /* it yadi pag tanggal hit bullet form hit whole list*/
+  opacity: 0.6;
+}
+/* #botton-left-section p {
+  margin-bottom: px;
+} */
